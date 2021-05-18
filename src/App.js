@@ -9,7 +9,6 @@ function App() {
 
   useEffect(() => {
     const a = localStorage.getItem('isLoggedIn');
-    console.log('useeffect is working');
     if (a == 1) {
       setIsLoggedIn(true);
     }
